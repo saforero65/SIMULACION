@@ -1,0 +1,15 @@
+﻿  Source.cpp
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(36,36): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(36,15): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(38,31): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(38,15): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(40,34): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(40,15): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(42,25): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(42,15): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(44,34): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(44,15): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(46,34): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(46,15): warning C4244: 'argumento': conversión de 'long double' a 'float'; posible pérdida de datos
+C:\Users\Santiago\source\repos\PARCIAL SIMULACION\PARCIAL SIMULACION\Source.cpp(51,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+  SIMULACION_cAJAS.vcxproj -> C:\Users\Santiago\source\repos\SIMULACION_cAJAS\Debug\SIMULACION_cAJAS.exe
