@@ -1,4 +1,4 @@
-//Parcial Simulación 1er Corte Vanessa Escobar Mora Natalia Gomez Malaver Santiago Forero Zapata
+//Parcial SimulaciÃ³n 1er Corte Vanessa Escobar Mora Natalia Gomez Malaver Santiago Forero Zapata
 #include <iostream>
 #include <math.h>
 #include <stdlib.h>
@@ -55,17 +55,17 @@ void esfera() {
 	glEnd();
 	glPushMatrix();
 	glColor3f(0.0, 0.0, 1.0);	
-	glTranslated(-2.0 + (P[0] * 0.01), 1.5+(tan(0.0174533)* P[0] * -0.2), 0.0);
+	glRotatef(-20.0, 0.0, 0.0, 1.0);	
+	glTranslated(-2.0 + (P[0] * 0.01), 1.0+(tan(0.0174533)* (P[0] * -0.01)), 0.0);
 	glScalef(2.0, 1.0, 1.0);
-	glRotatef(-20.0f, 0.0f, 0.0f, 1.0f);	
-	glutSolidCube(0.50);
+	glutSolidCube(0.40);
 	glPopMatrix();
 	glEnd();
 	glPushMatrix();
 	glColor3f(0.0, 0.0, 1.0);
 	glTranslated(2.5, -0.0+ (P[0] * (-0.01)), 0.0);
 	glScalef(1.0, 2.0, 1.0);
-	glutSolidCube( 0.50);
+	glutSolidCube( 0.40);
 	glPopMatrix();
 	glEnd();
 	glutSwapBuffers();
@@ -77,7 +77,7 @@ void Iniciar_Sistema() {
 	h = (tf - t) / N;
 	i = 0;
 	P[0] = 0.0; P[1] = 0.0; P[2] = 0.0;
-	/*Pf[0] = 0.8; Pf[1] = -1.0; Pf[0] = 0.0;*/
+	
 	V[0] = 0.0; V[1] = 0.0; V[2] = 0.0;
 	A[0] = 5.33; A[1] = 0.0; A[2] =0.0;
 }
@@ -100,10 +100,10 @@ void Aumentar_Tiempo() {
 void Metodo_Euler()
 {
 	while (i <= N) {
-		cout << "Tiempo: " << t << endl;
+		cout << "Tiempo : " << t << endl;
 		cout << "P,V,A en X: " << fixed << P[0] << "m " << V[0] << "m/s " << A[0] << "m/s^2" << endl;
 		cout << "P,V,A en Y: " << fixed << P[1] << "m " << V[1] << "m/s " << A[1] << "m/s^2" << endl;
-		//Ciclo Simulación
+		//Ciclo SimulaciÃ³n
 		graficas();
 		esfera();
 		Aumentar_Tiempo();
